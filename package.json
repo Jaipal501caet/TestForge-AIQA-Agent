@@ -18,6 +18,7 @@
     "@playwright/test": "^1.58.2",
     "@types/figlet": "^1.7.0",
     "@types/node": "^25.2.1",
+    "allure-commandline": "^2.36.0",
     "allure-playwright": "^3.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"

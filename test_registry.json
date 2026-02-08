@@ -1,0 +1,5 @@
+{
+    "Login with standard_user": "login_with_standard_user.spec.ts",
+    "Add backpack to cart": "add_backpack_to_cart.spec.ts",
+    "Remove backpack from cart": "remove_backpack_from_cart.spec.ts"
+}

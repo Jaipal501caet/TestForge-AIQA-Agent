@@ -49,7 +49,7 @@ jobs:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
         # Example: Run the full suite
-        npx playwright test
+        npx playwright test --reporter=html
 
     - name: 📊 Upload Test Report
       if: always()

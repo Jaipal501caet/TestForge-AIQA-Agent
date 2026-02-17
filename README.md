@@ -1,12 +1,12 @@
 # 🚀 TestForge: The Autonomous QA Agent
 
-TestForge is an AI-powered automation infrastructure that doesn't just run tests—it **writes** them, **heals** them, and **maintains** them.
+TestForge is an AI-powered automation infrastructure that doesn't just run tests—it **creates** them, **run** them, **heals** them, and **maintains** them.
 1. The "TestForge" Workflow Summary
 Imagine TestForge as a construction crew managed by an AI.
 
 Step 1: The Command (The Manager)
 Who: tf-cli.ts
-Action: You type testforge start --url "..." "login to app".
+Action: You type testforge start "login with standard user" --url "https://www.saucedemo.com"
 Role: This acts as the project manager. It takes your order, starts a "loading spinner" so you know work is happening, and immediately delegates the heavy thinking to the Python Brain.
 
 Step 2: The Architect (The Brain)
@@ -29,8 +29,8 @@ Action: Finally, it generates a fancy HTML report showing graphs and pass/fail s
 ## 🧠 Core Capabilities
 
 ### 1. 🗣️ Natural Language to Code
-**Command:** `testforge start --url "https://amazon.in" "Add iPhone 15 to cart"`
-* **Result:** Generates a production-grade Playwright test file (`add_iphone.spec.ts`) implementing best practices automatically.
+**Command:** `testforge start "add bike light in cart" --url "https://www.saucedemo.com"`
+* **Result:** Generates a production-grade Playwright test file (`add_bike_light_in_cart.spec.ts`) implementing best practices automatically.
 
 ### 2. 💉 Surgical Page Object Updates
 * Parses your existing Page Object Models (`.ts` files).
@@ -53,4 +53,4 @@ Action: Finally, it generates a fancy HTML report showing graphs and pass/fail s
 npm install && pip install -r requirements.txt
 
 # 2. Run the Agent
-testforge start --url "[https://saucedemo.com](https://saucedemo.com)" "Login and buy a bag"
+testforge start "Login and buy a bag" --url  "https://saucedemo.com" 

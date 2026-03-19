@@ -11,6 +11,12 @@ test-results/
 playwright-report/
 blob-report/
 
+# Allure Reports
+allure-results/
+allure-report/
+playwright-report/
+test-results/
+
 # OS Junk
 .DS_Store
 Thumbs.db

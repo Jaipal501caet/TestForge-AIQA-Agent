@@ -1,0 +1,87 @@
+{
+  "url": "https://www.saucedemo.com",
+  "timestamp": "2026-03-05T12:10:55.886Z",
+  "screenshotPath": "C:\\Users\\HP\\AutomationProject\\TestForge\\output\\vision_intel\\vision_snapshot.png",
+  "interactiveElements": [
+    {
+      "id": 1,
+      "tagName": "form",
+      "selector": "form",
+      "text": "",
+      "isVisible": true,
+      "attributes": {
+        "id": "",
+        "name": "",
+        "type": "",
+        "placeholder": ""
+      }
+    },
+    {
+      "id": 2,
+      "tagName": "input",
+      "selector": "input#user-name",
+      "text": "Username",
+      "isVisible": true,
+      "attributes": {
+        "id": "user-name",
+        "name": "user-name",
+        "type": "text",
+        "placeholder": "Username"
+      }
+    },
+    {
+      "id": 3,
+      "tagName": "input",
+      "selector": "input#password",
+      "text": "Password",
+      "isVisible": true,
+      "attributes": {
+        "id": "password",
+        "name": "password",
+        "type": "password",
+        "placeholder": "Password"
+      }
+    },
+    {
+      "id": 4,
+      "tagName": "input",
+      "selector": "input#login-button",
+      "text": "",
+      "isVisible": true,
+      "attributes": {
+        "id": "login-button",
+        "name": "login-button",
+        "type": "submit",
+        "placeholder": ""
+      }
+    }
+  ],
+  "networkActivity": [
+    {
+      "method": "POST",
+      "url": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN",
+      "postData": "{\"application\":\"Swag Store\",\"appversion\":\"3.0.0\",\"unique_events\":[{\"timestamp\":1772712653,\"attributes\":{\"application.session\":\"3f7ed918-c40f-4750-a976-596ec897f3b4\",\"backtrace.agent\":\"@backtrace-labs/react\",\"backtrace.version\":\"0.0.5\",\"browser.name\":\"Chrome\",\"browser.version\":\"145.0.0.0\",\"engine.name\":\"Blink\",\"engine.version\":\"145.0.0.0\",\"browser.platform\":\"Win32\",\"cpu.arch\":\"amd64\",\"uname.sysname\":\"Windows\",\"uname.version\":\"10\",\"mobile\":\"false\",\"user.agent.full\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\",\"application\":\"Swag Store\",\"process.age\":\"0\",\"hostname\":\"www.saucedemo.com\",\"referrer\":\"https://www.saucedemo.com/\",\"location.port\":\"\",\"location.protocol\":\"https:\",\"location.origin\":\"https://www.saucedemo.com\",\"location.href\":\"https://www.saucedemo.com/\",\"language\":\"en-US\",\"cookies.enable\":\"true\",\"document.domain\":\"www.saucedemo.com\",\"document.baseURI\":\"https://www.saucedemo.com/\",\"document.title\":\"Swag Labs\",\"document.referrer\":\"\",\"localstorage.enable\":\"true\",\"window.innerHeight\":\"720\",\"window.innerWidth\":\"1280\",\"window.outerHeight\":\"810\",\"window.outerWidth\":\"1298\",\"window.pageXOffset\":\"0\",\"window.pageYOffset\":\"0\",\"window.screenX\":\"10\",\"window.screenY\":\"10\",\"window.screenLeft\":\"10\",\"window.screenTop\":\"10\",\"guid\":\"3f7ed918-c40f-4750-a976-596ec897f3b4\",\"application.version\":\"3.0.0\"},\"unique\":[\"guid\"]}],\"metadata\":{\"dropped_events\":0}}",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.saucedemo.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN",
+      "postData": "{\"application\":\"Swag Store\",\"appversion\":\"3.0.0\",\"summed_events\":[{\"timestamp\":1772712653,\"attributes\":{\"application.session\":\"3f7ed918-c40f-4750-a976-596ec897f3b4\",\"backtrace.agent\":\"@backtrace-labs/react\",\"backtrace.version\":\"0.0.5\",\"browser.name\":\"Chrome\",\"browser.version\":\"145.0.0.0\",\"engine.name\":\"Blink\",\"engine.version\":\"145.0.0.0\",\"browser.platform\":\"Win32\",\"cpu.arch\":\"amd64\",\"uname.sysname\":\"Windows\",\"uname.version\":\"10\",\"mobile\":\"false\",\"user.agent.full\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\",\"application\":\"Swag Store\",\"process.age\":\"0\",\"hostname\":\"www.saucedemo.com\",\"referrer\":\"https://www.saucedemo.com/\",\"location.port\":\"\",\"location.protocol\":\"https:\",\"location.origin\":\"https://www.saucedemo.com\",\"location.href\":\"https://www.saucedemo.com/\",\"language\":\"en-US\",\"cookies.enable\":\"true\",\"document.domain\":\"www.saucedemo.com\",\"document.baseURI\":\"https://www.saucedemo.com/\",\"document.title\":\"Swag Labs\",\"document.referrer\":\"\",\"localstorage.enable\":\"true\",\"window.innerHeight\":\"720\",\"window.innerWidth\":\"1280\",\"window.outerHeight\":\"810\",\"window.outerWidth\":\"1298\",\"window.pageXOffset\":\"0\",\"window.pageYOffset\":\"0\",\"window.screenX\":\"10\",\"window.screenY\":\"10\",\"window.screenLeft\":\"10\",\"window.screenTop\":\"10\",\"guid\":\"3f7ed918-c40f-4750-a976-596ec897f3b4\",\"application.version\":\"3.0.0\"},\"metric_group\":\"Application Launches\"}],\"metadata\":{\"dropped_events\":0}}",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://www.saucedemo.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      }
+    }
+  ]
+}
